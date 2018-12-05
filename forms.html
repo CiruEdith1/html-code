@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+    <style>
+        body{
+            background: grey;
+        }
+        form{
+            width: 30%;
+            margin: auto;
+            background: blue;
+            border: 3px dot-dash black;
+            padding: 12px;
+        }
+        .x{
+            width: 100%;
+            margin-bottom: 15px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 8px;
+            box-sizing: border-box;
+        }
+        span{
+            color: brown;
+            display: block;
+
+        }
+        p{
+            color: black;
+        }
+        button{
+            background: white;
+            margin-top: 18px;
+            border: none;
+            border-radius: 8px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <input class="x" type="text" placeholder="enter names" required>
+    <input class="x" type="email" placeholder="enter email" required>
+    <input class="x" type="password" placeholder="enter password" required>
+    <input class="x" type="number" placeholder="enter DOB" max="min" required>
+ <span>  <input type="radio" name="gender"value="male" checked> male <br></span>
+   <span> <input  type="radio" name="gender"value="female" checked> female <br></span>
+  <span> <input type="radio" name="gender"value="others" checked> others<br></span>
+
+    <select class="x" name="" id="">
+        <option value="">maths</option>
+        <option value="">english</option>
+        <option value="">business</option>
+        <option value="">biology</option>
+        <option value="">history</option>
+
+    </select>
+   <span> <p>select your favourite job</p>
+   <span> <input type="checkbox">fishing</span>
+  <span>  <input type="checkbox">farming</span>
+    <span><input type="checkbox">football</span>
+  <span>  <input type="checkbox">teaching</span>
+   <span> <input type="checkbox">sales</span>
+
+    <button class="x">  register</button>
+
+</form>
+
+</body>
+</html>

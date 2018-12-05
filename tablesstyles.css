@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+body{
+    background: #2719ff;
+
+    ont-family: 'Oswald', sans-serif
+}
+table{
+    width: 60%;
+    margin: auto;
+    border: 5px red solid ;
+}
+th{
+    background: #6aff14;
+    text-align: left;
+    padding: 10px;
+    color: #ff0e15;
+}
+td{
+    border: 1px maroon solid;
+    padding-left: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+table, th, td{
+    border-collapse: collapse;
+}
